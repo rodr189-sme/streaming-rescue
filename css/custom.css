@@ -2,18 +2,17 @@ body {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
+	/*Background Color Mobile*/
 	background-color: #202020;
 }
 
 hr {
+	/*Break Color Mobile*/
 	border-top: 1px solid #fff;
 }
 
 .color {
-	color: #00b09b;
-}
-
-.ticket-title {
+	/*Title Color*/
 	color: #00b09b;
 }
 
@@ -35,16 +34,19 @@ hr {
 
 
 .btn-custom {
+	/*Gradient*/
 	background-image: linear-gradient(-90deg, #00b09b, #96c93d);
 	border-radius: 100px;
 	width: 100%;
 	padding:13px 31px;
 	margin-top: 1em;
+	/*Button Label Color*/
 	color: #fff;
 	font-weight: 800 !important;
 }
 
 .btn-custom:hover {
+	/*Button Label Color*/
 	color: #fff;
 }
 
@@ -60,6 +62,7 @@ hr {
 }
 
 .bg-img {
+	/*Background Color Mobile*/
 	background: linear-gradient(transparent, #202020), url("../img/background.jpg") no-repeat center center; 
 	background-size: cover;
 
@@ -157,12 +160,14 @@ footer {
 @media only screen and (min-width: 1200px) {
 
 	body {
+		/*Background Color Mobile*/
 		background-color: #ffffff;
 		color: #202020;
 	}
 
 
 	hr {
+		/*Break Color Desktop*/
 		border-top: 1px solid #dfdfdf;
 	}
 
@@ -175,6 +180,7 @@ footer {
 	}
 
 	.bg-img {
+		/*Gradient*/
 		background: linear-gradient(#00b09b, #96c93d) no-repeat center center; 
 		background-size: cover;
 	}
@@ -200,11 +206,13 @@ footer {
 	}
 
 	.ticket-background {
+		/*Gradient*/
 		background: linear-gradient(#00b09b, #96c93d) no-repeat center center; 
 		height: 100%;
 	}
 
 	.ticket-background body {
+		/*Gradient*/
 		background: linear-gradient(#00b09b, #96c93d) no-repeat center center; 
 		height: 100%;
 	}
