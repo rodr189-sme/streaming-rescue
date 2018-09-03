@@ -142,6 +142,11 @@ footer {
 	border-radius: 0.5rem;
 }
 
+.large-top {
+	margin-top: 1.5em;
+}
+
+
 .large-bottom {
 	margin-bottom: 1.5em;
 }
